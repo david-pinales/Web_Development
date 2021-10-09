@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    background-color: #eaf0f2;
+    font-family: 'Oswald', sans-serif;
+      
+}
+
+.content {
+    padding: 30px 30px 70px 30px;
+}
+
+.nav-main {
+    width: 100%;
+    background-color: #263238;
+    height: 75px;
+    color: #eaf0f2;
+}
+
+.nav-main .logo {
+    font-size: 42px;
+    float: left;
+    height: 42px;
+    padding: 15px 35px;
+    line-height: 35px;
+}
+
+.nav-main > ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style-type: none;
+    
+}
+
+
+.nav-main  > ul > li {
+    float: left;
+    
+}
+
+.nav-item {
+    font-size: 25px;
+    display: inline-block;
+    padding: 15px 35px;
+    height: 45px;
+    line-height: 45px;
+    color: #CFD8DC;
+    text-decoration: none; 
+}
+
+
+.nav-item:hover {
+    background-color: #546e7a;
+}
+
+.nav-item:focus {
+    background-color: #263238;
+}
+
+.nav-item:focus ~ .nav-content {
+    max-height: 400px;
+    transition: max-height 0.6s ease-in;
+}
+
+.nav-content {
+        position: absolute;
+        top: 70px;
+        overflow: hidden;
+        background-color: #263238;
+        max-height: 0;
+    
+    }
+.nav-content a {
+        color: #eaf0f2;
+        text-decoration: none;
+    
+    }
+
+.nav-content a:hover {
+        text-decoration: none;
+    }
+
+
+.nav-sub {
+    height: auto;
+    line-height: 45px;
+    padding: 15px 20px;
+    overflow: auto;
+}    
+
+.nav-sub ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+.nav-sub a {
+    display: inline-block;
+    padding: 5px 0px;
+}
+
+.nav-sub a:hover {
+    color: #CFD8DC;
+}
+
+.footerLogo {
+    color: #B0BEC5;
+    font-size: 28px;
+    text-align: center;
+    padding: 15px 35px;
+}
+.nav-foot-sec{
+    margin-top: 75px;
+    background-color: #263238;
+    font-size: 18px;
+    padding: 50px;
+}
+.nav-sec {
+    width: 100%;
+    float: left;
+    list-style-type: none;
+    color: #CFD8DC;
+    display: inline-block;
+}
+
+.nav-sec a {
+    text-decoration: none;
+    color: white;
+    display: inline;
+    font-size: 16px;
+}
+  
+.nav-sec > ul {
+    padding: 0px;
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 25%;
+}
+
+.nav-sec  > ul > li {
+    float: left;
+    text-align: center;
+}
+
+.nav-itemFooter:hover {
+    color: #CFD8DC;
+}
+
+.nav-itemFooter {
+    font-size: 25px;
+    display: inline-block;
+    padding: 15px 35px;
+    height: 45px;
+    line-height: 45px;
+    color: #B0BEC5;
+    text-decoration: none;
+}
+
+.fnote {
+    font-size: 16px;
+    background-color: #263238;
+    text-align: center;
+    color: #B0BEC5;
+    padding: 15px 35px;
+}
+
+/*LETTERS*/
+
